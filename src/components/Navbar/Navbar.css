@@ -1,0 +1,36 @@
+.navbar-container{
+    width: 100%;
+    position: fixed;
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 8%;
+}
+
+.container-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.botonNavbar{
+    background: transparent;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    color: #d9ad26;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.botonNavbar:hover{
+    font-weight: bold;  
+    cursor: pointer;
+    transition: 0.1s;
+    scale: 1.1; 
+}
